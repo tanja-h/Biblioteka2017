@@ -11,6 +11,5 @@ public interface BibliotekaInterface {
 	public LinkedList<Knjiga> vratiSveKnjige();
 	public LinkedList<Knjiga> pronadjiKnjigu(Autor autor,
 			long ISBN, String naslov, String izdavac);
-	public void nadjiPisca();
 	
 }
