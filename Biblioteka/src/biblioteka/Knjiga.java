@@ -66,11 +66,7 @@ public class Knjiga {
 		} else if (!autori.equals(other.autori)) {
 			return false;
 		}
-		if (isbn == null) {
-			if (other.isbn != null) {
-				return false;
-			}
-		} else if (!isbn.equals(other.isbn)) {
+		if (isbn != other.isbn) {
 			return false;
 		}
 		if (izdanje == null) {
@@ -96,6 +92,8 @@ public class Knjiga {
 		}
 		return true;
 	}
+	
+	
 	
 	
 }
